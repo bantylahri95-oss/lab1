@@ -4,4 +4,4 @@ x=1
 while(x<=2500):
     print(x, end=" ,")
     x=x+y
-    y=+2
+    y=y+2
