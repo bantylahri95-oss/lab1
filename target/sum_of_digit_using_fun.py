@@ -1,0 +1,5 @@
+def sum_digits(n):
+    return sum(int(d) for d in str(abs(n)))
+
+n = int(input())
+print(sum_digits(n))

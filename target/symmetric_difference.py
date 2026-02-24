@@ -1,0 +1,3 @@
+s1 = set(map(int, input().split()))
+s2 = set(map(int, input().split()))
+print(*(s1 ^ s2))
